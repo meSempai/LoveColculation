@@ -1,4 +1,4 @@
-package com.example.lovecolculation
+package com.example.lovecolculation.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.lovecolculation.databinding.FragmentCalculateBinding
 import com.example.lovecolculation.databinding.FragmentResultBinding
+import com.example.lovecolculation.remote.LoveModel
 
 
 class ResultFragment : Fragment() {
@@ -15,7 +15,7 @@ class ResultFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
+    ): View {
         binding = FragmentResultBinding.inflate(inflater, container, false)
         return binding.root
     }

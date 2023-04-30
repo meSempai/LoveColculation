@@ -1,4 +1,4 @@
-package com.example.lovecolculation
+package com.example.lovecolculation.remote
 
 import com.google.gson.annotations.SerializedName
 

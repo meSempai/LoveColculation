@@ -1,4 +1,4 @@
-package com.example.lovecolculation
+package com.example.lovecolculation.remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

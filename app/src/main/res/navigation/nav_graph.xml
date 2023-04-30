@@ -7,12 +7,13 @@
 
     <fragment
         android:id="@+id/calculateFragment"
-        android:name="com.example.lovecolculation.CalculateFragment"
+        android:name="com.example.lovecolculation.fragments.CalculateFragment"
         android:label="fragment_calculate"
         tools:layout="@layout/fragment_calculate" />
+
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.example.lovecolculation.ResultFragment"
+        android:name="com.example.lovecolculation.fragments.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" />
 </navigation>
